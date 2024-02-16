@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Font Size Increase</title>
+    <style>
+        #myText {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="increaseFontSize()">Increase Font Size</button>
+    <p id="myText">This is some sample text.</p>
+
+    <script>
+        function increaseFontSize() {
+            var textElement = document.getElementById("myText");
+            var currentFontSize = parseInt(window.getComputedStyle(textElement).fontSize);
+            var newFontSize = currentFontSize + 2;
+            textElement.style.fontSize = newFontSize + "px";
+        }
+    </script>
+</body>
+
+</html>

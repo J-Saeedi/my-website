@@ -1,30 +1,439 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="css/simple.css">
-  <title>Under Development</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>J-Saeedi</title>
+  <meta name="description" content="Javad Saeedi's Personal website" />
+  <meta property="og:title" content="Click here to connect me" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/templatemo-style.css" />
+
 </head>
 
 <body>
-  <!-- hahhahahahaahah -->>
-  <h1 style="font-size: 8px;">This is heading 1</h1>
-  <h2>This is heading 2</h2>
-  <h3>This is heading 3</h3>
-  <h4>This <!--is--> heading 4</h4>
-  <h5>This is heading 5</h5>
-  <h6>This is heading 6</h6>
-  <hr>
-  <p title="I am a title" style="color: rgb(114, 116, 94);font-family:'courier';font-size:200%">this is a
-    paragraph</p>this
-  some texts.
-  <p>another paragraph</p>
-  <a href="/images/flower.jpg" target="_blank">this is a link</a>
-  <hr>
-  <img style="color:rgb(52, 21, 60);" src="images/flower.jpg" , alt="beautiful flower" , width="150"></img>
-  <hr>
+  <!-- Hero section -->
+  <section id="hero" class="text-white tm-font-big tm-parallax">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">
+      <div class="container">
+        <div class="tm-next">
+          <a href="#hero" class="navbar-brand">TOP</a>
+        </div>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#work">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="text-center tm-hero-text-container">
+      <div class="tm-hero-text-container-inner">
+        <h2 class="tm-hero-title">Code Meets Energy</h2>
+        <p class="tm-hero-subtitle">
+          Engineering Solutions
+          <br />by Javad Saeedi
+        </p>
+      </div>
+    </div>
+
+    <div class="tm-next tm-intro-next">
+      <a href="#about" class="text-center tm-down-arrow-link">
+        <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="tm-section-pad-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="img/craiyon_233148_Create_a_visually_engaging_poster_with_the_theme__Integrating_Electronic_Concepts_for.jpg"
+            alt="Image" class="img-fluid tm-intro-img" />
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4 tm-section-title">About Me</h2>
+            <p class="mb-4 tm-intro-text">
+              The phrase "<strong>Code meets energy</strong>" has emerged based on my growth approach.<br><br> I have
+              learned
+              that issues related
+              to energy
+              systems can be solved quite simply using computers and coding. <br><br>The following short story, divided
+              into
+              three parts,
+              illustrates this concept for you:
+            </p>
+
+            <!-- <div class="tm-next">
+              <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row tm-section-pad-top">
+        <div class="col-lg-4">
+          <i class="fas fa-4x fa-bolt text-center tm-icon"></i>
+          <h4 class="text-center tm-text-primary mb-4">[1/3] Discovery and Interest</h4>
+          <p>
+            The story begins during my high school years when I discovered how to program robots, specifically by
+            giving
+            instructions to microcontrollers. At that time, discussions about artificial intelligence and
+            robotics were not
+            as prevalent, but I had already developed a keen interest in the field.
+          </p>
+        </div>
+
+        <div class="col-lg-4 mt-5 mt-lg-0">
+          <i class="fas fa-4x fa-book text-center tm-icon"></i>
+          <h4 class="text-center tm-text-primary mb-4">[2/3] Education and Learning</h4>
+          <p>
+            After a few years, I enrolled
+            in
+            university,
+            where I studied mechanical engineering. During my studies, I learned about fluid mechanics, heat transfer,
+            and
+            thermodynamics. Upon successfully completing my education, I decided to tackle challenges in my
+            professional field using
+            computers.
+          </p>
+        </div>
+        <div class="col-lg-4 mt-5 mt-lg-0">
+          <i class="fas fa-4x fa-line-chart text-center tm-icon"></i>
+          <h4 class="text-center tm-text-primary mb-4">[3/3] Career Development</h4>
+          <p>
+            Just like before, I aimed to instruct a computer to solve my problems. This journey
+            marked a
+            significant
+            turning point in my life, shaping my career and passion for technology. It was a pivotal experience that
+            not only fueled
+            my curiosity but also laid the foundation for my future endeavors in engineering and problem-solving.
+          </p>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- <section id="work" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="text-center col-12">
+          <h2 class="tm-text-primary tm-section-title mb-4">My Works</h2>
+          <p class="mx-auto tm-work-description">
+            A selection of projects I have completed previously can be found in the list below. Click on any image to
+            enlarge it.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="mx-auto tm-gallery-container">
+            <div class="grid tm-gallery">
+              <a href="img/gallery-img-01.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-01.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Dreamy <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-02.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-02.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Second <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-03.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-03.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Third <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-04.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-04.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Dreamy <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-05.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-05.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Fifth <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-06.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-06.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Sixth <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-01.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-01.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Dreamy <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-02.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-02.jpg" alt="Image" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Eighth <span>Honey</span> Now</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact -->
+  <section id="contact" class="tm-section-pad-top tm-parallax-2">
+    <div class="container tm-container-contact">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4 tm-section-title">Contact Me</h2>
+          <div class="mb-5 tm-underline">
+            <div class="tm-underline-inner"></div>
+          </div>
+          <p class="mb-5">
+            I believe that collaboration is key to unlocking new ideas and driving
+            impactful
+            change, and I am always eager to connect with like-minded professionals and explore new opportunities.
+          </p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+          <a href="tel:+989917663474" class="tm-contact-item-link">
+            <i class="fas fa-3x fa-phone mr-4"></i>
+            <span class="mb-0">+98-99-17-66-3474</span>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+          <a href="mailto:J.SAEEDI.EDU@GMAIL.COM" class="tm-contact-item-link">
+            <i class="fas fa-3x fa-envelope mr-4"></i>
+            <span class="mb-0">J.SAEEDI.EDU@GMAIL.COM</span>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+          <a href="https://github.com/J-Saeedi" class="tm-contact-item-link">
+            <i class="fa fa-4x fa-github mr-4"></i>
+            <span class="mb-0">on Github</span>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+          <a href="https://www.linkedin.com/in/jsaeidi/" class="tm-contact-item-link">
+            <i class="fa fa-4x fa-linkedin mr-4"></i>
+            <span class="mb-0">on Linkedin</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center small tm-footer">
+      <p class="mb-0">
+        Copyright &copy; 2024
+
+        - <a rel="nofollow" href="/" class="tm-footer-link">Javad Saeedi</a>
+      </p>
+    </footer>
+  </section>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+
+    function getOffSet() {
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
+
+      if (windowHeight > 500) {
+        _offset = 400;
+      }
+      if (windowHeight > 680) {
+        _offset = 300
+      }
+      if (windowHeight > 830) {
+        _offset = 210;
+      }
+
+      return _offset;
+    }
+
+    function setParallaxPosition($doc, multiplier, $object) {
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+      $object.css({ "background-position": bg_css });
+    }
+
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+    var background_image_parallax = function ($object, multiplier, forceSet) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
+
+      if (forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
+        $(window).scroll(function () {
+          setParallaxPosition($doc, multiplier, $object);
+        });
+      }
+    };
+
+    var background_image_parallax_2 = function ($object, multiplier) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({ "background-attachment": "fixed" });
+      $(window).scroll(function () {
+        var firstTop = $object.offset().top,
+          pos = $(window).scrollTop(),
+          yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+
+        var bg_css = 'center ' + yPos + 'px';
+
+        $object.css({ "background-position": bg_css });
+      });
+    };
+
+    $(function () {
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.30, false);
+      background_image_parallax_2($("#contact"), 0.80);
+
+      // Handle window resize
+      window.addEventListener('resize', function () {
+        background_image_parallax($(".tm-parallax"), 0.30, true);
+      }, true);
+
+      // Detect window scroll and update navbar
+      $(window).scroll(function (e) {
+        if ($(document).scrollTop() > 120) {
+          $('.tm-navbar').addClass("scroll");
+        } else {
+          $('.tm-navbar').removeClass("scroll");
+        }
+      });
+
+      // Close mobile menu after click 
+      $('#tmNav a').on('click', function () {
+        $('.navbar-collapse').removeClass('show');
+      })
+
+      // Scroll to corresponding section with animation
+      $('#tmNav').singlePageNav();
+
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 400, function () {
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      // Pop up
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true }
+      });
+
+      // Gallery
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
 </body>
 
 </html>
